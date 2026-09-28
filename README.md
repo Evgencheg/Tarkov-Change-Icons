@@ -2,6 +2,8 @@
 
 Adds icons to your account: Sherpa, Emissary, Developer, Unheard or Edge of Darkness.
 
+I saw many people on the SPT Discord server asking how to get these icons, so I created a mod that allows you to do so with a single chat message.
+
 Server mod for SPT (SP-Tushonka) 4.1.
 
 ## Features
@@ -10,7 +12,7 @@ Message **SPT** in your friends list:
 - `spt membercategory` - what you have now
 - `spt membercategory list` - what you can add
 - `spt membercategory 1026` or `spt membercategory unheard+uniqueid` - set your icons
-- `spt membercategory default` - remove them
+- `spt membercategory default` - back to what your game edition has
 
 Fully restart the game after a change. Choose which icon is shown in the profile settings.
 
@@ -26,7 +28,7 @@ You should get `SPT_Runtime/user/mods/ChangeIcons/ChangeIcons.dll`.
 
 Delete `SPT_Runtime/user/mods/ChangeIcons`.
 
-Your icons stay on the account. To remove them, send `spt membercategory default` before deleting the mod.
+Your icons stay on the account. To reset them, send `spt membercategory default` before deleting the mod.
 
 ## Building
 
