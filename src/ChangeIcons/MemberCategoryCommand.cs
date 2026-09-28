@@ -68,7 +68,7 @@ public class MemberCategoryCommand(ProfileHelper profileHelper, SaveServer saveS
             }
 
             await saveServer.SaveProfileAsync(sessionId);
-            reply = $"Done! You now have {Describe(value)}. Log out and back in to see it.";
+            reply = $"Done! You now have {Describe(value)}. Fully restart the game to see it.";
         }
 
         mailSendService.SendUserMessageToPlayer(sessionId, commandHandler, reply);
